@@ -1,6 +1,8 @@
 # VanBitCrackenRandom2
 The Newest Version of VanBitCracken...VBCr
-Supports a simple -bits flag and Begin and End Range (-begr and -endr). New version also supports full address with newer RTX cards.
+This program is really only intended for the BTC Challenge. However, you can use it to generate your own personal BTC address and use it.
+It is a spinoff of JLP's original VanitySearch.
+Supports a simple -bits flag and Begin and End Range (-begr and -endr) flags. New version also supports full address with newer RTX cards. It has been tested on Windows 10 and Windows 11 on RTX 30xx cards, RTX 20xx cards and a GTX 1660 Ti card.
 (Program will be released after additional testing)
 
 Batch file settings example using -begr and -endr flags:
