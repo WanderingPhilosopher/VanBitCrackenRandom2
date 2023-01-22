@@ -21,7 +21,7 @@ VBCr -t 0 -gpu -gpuId 0 -bits 66 -r 2400 -o 66BitChallengeKey.txt 13zb1hQbWVsc2S
 
 printf("Flags");
 
-        printf("VBCr [-check] [-v] [-u] [-b] [-c] [-gpu] [-stop] [-i inputfile]\n");
+    printf("VBCr [-check] [-v] [-u] [-b] [-c] [-gpu] [-stop] [-i inputfile]\n");
 	printf("             [-gpuId gpuId1[,gpuId2,...]] [-g g1x,g1y,[,g2x,g2y,...]]\n");
 	printf("             [-o outputfile] [-m maxFound] [-ps seed] [-s seed] [-t nbThread]\n");
 	printf("             [-bits bitsNumber] [-topr TopRange] [-subr SubRange] [-nosse] [-r rekey] \n");
