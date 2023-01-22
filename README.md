@@ -24,7 +24,7 @@ printf("Flags");
     printf("VBCr [-check] [-v] [-u] [-b] [-c] [-gpu] [-stop] [-i inputfile]\n");
 	printf("             [-gpuId gpuId1[,gpuId2,...]] [-g g1x,g1y,[,g2x,g2y,...]]\n");
 	printf("             [-o outputfile] [-m maxFound] [-ps seed] [-s seed] [-t nbThread]\n");
-	printf("             [-bits bitsNumber] [-topr TopRange] [-subr SubRange] [-nosse] [-r rekey] \n");
+	printf("             [-bits bitsNumber] [-begr BeginRange] [-endr EndRange] [-nosse] [-r rekey] \n");
 	printf("             [-check] [-kp] [-sp startPubKey] [-rp privkey partialkeyfile] [prefix]\n\n");
 	printf(" prefix: prefix to search (Can contains wildcard '?' or '*')\n");
 	printf(" -v: Print version\n");
