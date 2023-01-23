@@ -13,6 +13,8 @@ SHA256 Checksum:
 ```
 (Verify by opening cmd, change directory to where file (VBCr.exe) is located, and run CertUtil -hashfile VBCr.exe.exe SHA256
 
+To run:
+Place VBCr.exe in a folder. Create a batch file; a few examples are below. Double click the batch file and you're up and cracken!
 
 (Program will be released after additional testing)
 
