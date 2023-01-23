@@ -65,7 +65,14 @@ printf("Flags");
 
 New flags: -dis = will show private key info on screen if found. -drk will display a few random keys on each rekey
 Example usage with -bits, -dis, -drk
-'''
+Batch file settings:
+```
+VBCr.exe -stop -begr 8000000 -endr fffffff -t 3 -dis 1 -r 30 -drk 1 12jbtzBb54r97TCwW3G1gCFoumpckRAPdY
+pause
+```
+
+Results
+```
 VBCr v2.00
  Search For: 12jbtzBb54r97TCwW3G1gCFoumpckRAPdY [Compressed]
  Started on: Sun Jan 22 20:21:55 2023
@@ -97,4 +104,4 @@ Random Key :  E6213A7
 PubAddress: 12jbtzBb54r97TCwW3G1gCFoumpckRAPdY
 Priv (WIF): p2pkh: KwDiBf89QgGbjEhKnhXJuH7LrciVrZi3qYjgd9M82GSgY8p5EkUe
 Priv (HEX): D916CE8 (28 bit)
-'''
+```
