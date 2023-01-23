@@ -105,3 +105,22 @@ PubAddress: 12jbtzBb54r97TCwW3G1gCFoumpckRAPdY
 Priv (WIF): p2pkh: KwDiBf89QgGbjEhKnhXJuH7LrciVrZi3qYjgd9M82GSgY8p5EkUe
 Priv (HEX): D916CE8 (28 bit)
 ```
+
+Resuts turning off -dis and -drk (private key info is saved to output file:
+Batch file settings:
+```
+VBCr.exe -stop -begr 8000000 -endr fffffff -t 3 -dis 0 -r 30 -drk 0 12jbtzBb54r97TCwW3G1gCFoumpckRAPdY
+pause
+```
+Results:
+```
+VBCr v2.00
+ Search For: 12jbtzBb54r97TCwW3G1gCFoumpckRAPdY [Compressed]
+ Started on: Sun Jan 22 20:26:13 2023
+ Randomness: New Random Keys Every 30 Mkeys
+  Beg Range: 8000000 (28 bit)
+  End Range: FFFFFFF (28 bit)
+  Rng Width: 7FFFFFF (27 bit)
+CPU Threads: 3
+ [00:00:00:20 Run Time][Total 7.63 MK/s][GPU 0.00 MK/s][Keys 158,656,512][Found 0][Rekeys: 4]
+```
