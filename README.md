@@ -125,3 +125,113 @@ VBCr v2.00
 CPU Threads: 3
  [00:00:00:20 Run Time][Total 7.63 MK/s][GPU 0.00 MK/s][Keys 158,656,512][Found 0][Rekeys: 4]
 ```
+Example usage for puzzle 66:
+Batch file settings with -bits flag:
+```
+VBCr.exe -t 0 -bits 66 -gpu -g 360,512 -dis 1 -r 4800 -stop 13zb1hQbWVsc2S7ZTZnP2G4undNNpdh5so
+pause
+```
+
+Results:
+```
+VBCr v2.00
+ Search For: 13zb1hQbWVsc2S7ZTZnP2G4undNNpdh5so [Compressed]
+ Started on: Sun Jan 22 17:32:10 2023
+ Randomness: New Random Keys Every 4800 Mkeys
+   Key Bits: 66
+CPU Threads: 0
+GPU: GPU #0 NVIDIA GeForce GTX 1660 Ti (24x64 cores) Grid(360x512)
+
+Random Key :  308CABD0974C7A846
+Random Key :  2DDDF79AA69152757
+Random Key :  241E724176C37D12E
+Random Key :  3A9BE47D2902961B3
+Random Key :  29594D6602BAC5561
+Random Key :  34C029367537AB77D
+Random Key :  36CA9FB4B159874E1
+Random Key :  3CEBED39C757C3BC3
+Random Key :  39AE6B57B4375008E
+Random Key :  2C6FBD43571960875
+Random Key :  2C458006391314E2E
+Random Key :  388CF936AF86FBEBC
+Random Key :  3E20CECA93CD26179
+Random Key :  28171277ABC6513AA
+Random Key :  3C7458A90CDB9E5C9
+Random Key :  35B83B533820443E3
+Random Key :  3F79EDFD917F7F40D
+Random Key :  26D22C54B3E56C08F
+Random Key :  2B520833EB5D65AC7
+ [00:00:00:08 Run Time][Total 641.81 MK/s][GPU 641.81 MK/s][Keys 5,284,823,040][Found 0][Rekeys: 0]
+Random Key :  34701E3AA7DC4A9C9
+Random Key :  311721AAFA63291AF
+Random Key :  24F53302729C06B12
+Random Key :  220C87CA487D29452
+Random Key :  38928C9DBD913868F
+Random Key :  205473A33ADBFADB7
+Random Key :  2A85A07E94CB40676
+Random Key :  3AF22678B4F8EC7BD
+Random Key :  36F6F6E1D881D09CD
+ [00:00:00:18 Run Time][Total 585.22 MK/s][GPU 585.22 MK/s][Keys 10,947,133,440][Found 0][Rekeys: 1]
+Random Key :  24C0AC6142420FF73
+Random Key :  30321534B1A02E433
+Random Key :  3FFB145C6FFBF35C4
+Random Key :  3F45CE92B4A273553
+Random Key :  3E49607E3521F4BAB
+Random Key :  3566688C488842EA7
+Random Key :  39E4932A8F4C2B4E2
+Random Key :  363F1768800CA7B74
+Random Key :  31E941726B4CB19A8
+ [00:00:00:28 Run Time][Total 546.81 MK/s][GPU 546.81 MK/s][Keys 16,609,443,840][Found 0][Rekeys: 2]
+Random Key :  3F4A8574A7E7A842A
+Random Key :  2ED1423A49BEFD822
+Random Key :  2E1B48F713FC36A91
+Random Key :  2395AB596D46E8735
+Random Key :  2A9BB20FC39A514A0
+Random Key :  25EF8DC515FF5C41A
+Random Key :  2B731AD2F531FDB0B
+Random Key :  3F34696509C5215AA
+Random Key :  23F2B762A7E1069FA
+ [00:00:00:38 Run Time][Total 557.05 MK/s][GPU 557.05 MK/s][Keys 22,460,497,920][Found 0][Rekeys: 3]
+```
+
+Example usage for puzzle 66:
+Batch file settings with -begr and -endr flags (these settings are saying generate random keys between 20000...and 21000...):
+```
+VBCr.exe -t 0 -begr 20000000000000000 -endr 21000000000000000 -gpu -g 360,512 -dis 1 -r 4800 -stop 13zb1hQbWVsc2S7ZTZnP2G4undNNpdh5so
+pause
+```
+
+Results:
+```
+VBCr v2.00
+ Search For: 13zb1hQbWVsc2S7ZTZnP2G4undNNpdh5so [Compressed]
+ Started on: Sun Jan 22 17:37:19 2023
+ Randomness: New Random Keys Every 4800 Mkeys
+  Beg Range: 20000000000000000 (66 bit)
+  End Range: 21000000000000000 (66 bit)
+  Rng Width: 1000000000000000 (61 bit)
+CPU Threads: 0
+GPU: GPU #0 NVIDIA GeForce GTX 1660 Ti (24x64 cores) Grid(360x512)
+
+Random Key :  204B1BC5E4EBD54D8
+Random Key :  206555453432A4296
+Random Key :  20D7230EF07E606CB
+Random Key :  20A634C25C37983FB
+Random Key :  2072035F104ACE59C
+Random Key :  204CF3E6010A8B3D6
+Random Key :  207B34B6E3934F5F9
+Random Key :  2070FA5469ED248E3
+Random Key :  2080730B9937ED5BA
+ [00:00:00:08 Run Time][Total 663.47 MK/s][GPU 663.47 MK/s][Keys 5,473,566,720][Found 0][Rekeys: 0]
+Random Key :  209B15FF38C0CD0DA
+Random Key :  200D60A9EB76432DD
+Random Key :  20C685592DA8078CE
+Random Key :  20C02CB11B1CFD24D
+ [00:00:00:18 Run Time][Total 571.96 MK/s][GPU 571.96 MK/s][Keys 10,947,133,440][Found 0][Rekeys: 1]
+Random Key :  2081FAA95774DF2F3
+Random Key :  2092F92246542F01D
+Random Key :  20EDBF83BAFA82E78
+Random Key :  2062CE60993802D7C
+ [00:00:00:30 Run Time][Total 513.35 MK/s][GPU 513.35 MK/s][Keys 17,553,162,240][Found 0][Rekeys: 2]
+```
+
