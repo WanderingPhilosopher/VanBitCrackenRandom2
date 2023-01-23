@@ -11,6 +11,7 @@ SHA256 Checksum:
 ```
 6083da2c69040c209bc835c0daa5f3dcaaa50f7f1c32151315eff7d99231feb7
 ```
+(Verify by opening cmd, change directory to where file (VBCr.exe) is located, and run CertUtil -hashfile VBCr.exe.exe SHA256
 
 
 (Program will be released after additional testing)
