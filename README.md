@@ -107,6 +107,7 @@ Priv (HEX): D916CE8 (28 bit)
 ```
 
 Resuts turning off -dis and -drk (private key info is saved to output file):
+
 Batch file settings:
 ```
 VBCr.exe -stop -begr 8000000 -endr fffffff -t 3 -dis 0 -r 30 -drk 0 12jbtzBb54r97TCwW3G1gCFoumpckRAPdY
