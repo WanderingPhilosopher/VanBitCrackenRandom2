@@ -62,3 +62,39 @@ printf("Flags");
 	printf(" -rp privkey partialkeyfile: Reconstruct final private key(s) from partial key(s) info.\n");
 	printf(" -sp startPubKey: Start the search with a pubKey (for private key splitting)\n");
 	printf(" -r rekey: Rekey interval in MegaKey (millions). Default is disabled / 0.\n");
+
+New flags: -dis = will show private key info on screen if found. -drk will display a few random keys on each rekey
+Example usage with -bits, -dis, -drk
+'''
+VBCr v2.00
+ Search For: 12jbtzBb54r97TCwW3G1gCFoumpckRAPdY [Compressed]
+ Started on: Sun Jan 22 20:21:55 2023
+ Randomness: New Random Keys Every 30 Mkeys
+  Beg Range: 8000000 (28 bit)
+  End Range: FFFFFFF (28 bit)
+  Rng Width: 7FFFFFF (27 bit)
+CPU Threads: 3
+
+Random Key :  FABEC30
+Random Key :  A1ECC58
+ [00:00:00:04 Run Time][Total 8.64 MK/s][GPU 0.00 MK/s][Keys 35,030,016][Found 0][Rekeys: 0]
+Random Key :  CF0A7FB
+Random Key :  C2AA2EF
+ [00:00:00:08 Run Time][Total 8.22 MK/s][GPU 0.00 MK/s][Keys 66,820,096][Found 0][Rekeys: 1]
+Random Key :  AD3045D
+Random Key :  9EF1989
+ [00:00:00:12 Run Time][Total 8.00 MK/s][GPU 0.00 MK/s][Keys 97,549,312][Found 0][Rekeys: 2]
+Random Key :  C69AA78
+Random Key :  C12D635
+ [00:00:00:16 Run Time][Total 7.93 MK/s][GPU 0.00 MK/s][Keys 128,915,456][Found 0][Rekeys: 3]
+Random Key :  8F2D343
+Random Key :  BBAC6E6
+ [00:00:00:20 Run Time][Total 7.73 MK/s][GPU 0.00 MK/s][Keys 160,857,088][Found 0][Rekeys: 4]
+Random Key :  AEFBEE1
+Random Key :  D83BB40
+Random Key :  E6213A7
+
+PubAddress: 12jbtzBb54r97TCwW3G1gCFoumpckRAPdY
+Priv (WIF): p2pkh: KwDiBf89QgGbjEhKnhXJuH7LrciVrZi3qYjgd9M82GSgY8p5EkUe
+Priv (HEX): D916CE8 (28 bit)
+'''
