@@ -195,7 +195,7 @@ Random Key :  23F2B762A7E1069FA
 ```
 
 Example usage for puzzle 66:
-Batch file settings with -begr and -endr flags (these settings are saying generate random keys between 20000...and 21000...):
+Batch file settings with -begr and -endr flags (these settings are saying generate random keys between 20000...and 21000... you can adjust -begr and -endr to whatever range(s) you want.):
 ```
 VBCr.exe -t 0 -begr 20000000000000000 -endr 21000000000000000 -gpu -g 360,512 -dis 1 -r 4800 -stop 13zb1hQbWVsc2S7ZTZnP2G4undNNpdh5so
 pause
