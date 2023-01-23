@@ -1,5 +1,5 @@
 # VanBitCrackenRandom2
-The Newest Version of VanBitCracken...VBCr
+The Newest Version of VanBitCrackenRandom...VBCr
 
 This program is really only intended for the BTC Challenge. However, you can use it to generate your own personal BTC address and use it.
 
