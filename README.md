@@ -7,6 +7,12 @@ It is a spinoff of JLP's original VanitySearch.
 
 Program supports a simple -bits flag and Begin and End Range (-begr and -endr) flags. New version also supports full address with newer RTX cards. It has been tested on Windows 10 and Windows 11 on RTX 30xx cards, RTX 20xx cards and a GTX 1660 Ti card.
 
+SHA256 Checksum:
+```
+6083da2c69040c209bc835c0daa5f3dcaaa50f7f1c32151315eff7d99231feb7
+```
+
+
 (Program will be released after additional testing)
 
 Batch file settings example using -begr and -endr flags:
