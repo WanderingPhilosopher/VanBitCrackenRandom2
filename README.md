@@ -9,7 +9,7 @@ Program supports a simple -bits flag and Begin and End Range (-begr and -endr) f
 
 SHA256 Checksum:
 ```
-6083da2c69040c209bc835c0daa5f3dcaaa50f7f1c32151315eff7d99231feb7
+8a85dea5f0bff80311c5c55b578f09339975c2f4b8f9fc335a2be65794d3fcdb
 ```
 (Verify by opening cmd, change directory to where file (VBCr.exe) is located, and run CertUtil -hashfile VBCr.exe.exe SHA256
 
