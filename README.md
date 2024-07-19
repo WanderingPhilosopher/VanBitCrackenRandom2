@@ -20,7 +20,7 @@ Place VBCr.exe in a folder. Create a batch file; a few examples are below. Doubl
 
 Batch file settings example using -begr and -endr flags:
 ```
-VBCr -t 0 -gpu -gpuId 0 -begr 2000000000000000 -endr 3000000000000000 -r 2400 -o 66BitChallengeKey.txt 13zb1hQbWVsc2S7ZTZnP2G4undNNpdh5so
+VBCr -t 0 -gpu -gpuId 0 -begr 20000000000000000 -endr 40000000000000000 -r 2400 -o 66BitChallengeKey.txt 13zb1hQbWVsc2S7ZTZnP2G4undNNpdh5so
 ```
 
 Batch file settings example using -bits flag:
