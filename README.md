@@ -20,7 +20,7 @@ SHA256 Checksum for VBCrLinux:
 To run:
 Place VBCr.exe in a folder. Create a batch file; a few examples are below. Double click the batch file and you're up and cracken!
 
-(Program will be released after additional testing)
+
 
 Batch file settings example using -begr and -endr flags:
 ```
