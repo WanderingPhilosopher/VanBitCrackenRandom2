@@ -26,10 +26,16 @@ Batch file settings example using -begr and -endr flags:
 ```
 VBCr -t 0 -gpu -gpuId 0 -begr 20000000000000000 -endr 40000000000000000 -r 2400 -o 66BitChallengeKey.txt 13zb1hQbWVsc2S7ZTZnP2G4undNNpdh5so
 ```
+```
+./VBCrLinux -t 0 -gpu -gpuId 0 -begr 20000000000000000 -endr 40000000000000000 -r 2400 -o 66BitChallengeKey.txt 13zb1hQbWVsc2S7ZTZnP2G4undNNpdh5so
+```
 
 Batch file settings example using -bits flag:
 ```
 VBCr -t 0 -gpu -gpuId 0 -bits 66 -r 2400 -o 66BitChallengeKey.txt 13zb1hQbWVsc2S7ZTZnP2G4undNNpdh5so
+```
+```
+./VBCrLinux -t 0 -gpu -gpuId 0 -bits 66 -r 2400 -o 66BitChallengeKey.txt 13zb1hQbWVsc2S7ZTZnP2G4undNNpdh5so
 ```
 
 printf("Flags");
