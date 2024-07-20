@@ -9,7 +9,7 @@ Program supports a simple -bits flag and Begin and End Range (-begr and -endr) f
 
 SHA256 Checksum for VBCr Windows:
 ```
-78e8c3ec39eab3f21dc4930dc1becaf4c3f3aa2b9936cc7f6ff744020e31beb1
+00669a98953964a1b966964272f5c284199f5768838567056be7223a9c0abd08
 ```
 SHA256 Checksum for VBCrLinux:
 ```
