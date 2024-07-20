@@ -7,9 +7,13 @@ It is a spinoff of JLP's original VanitySearch.
 
 Program supports a simple -bits flag and Begin and End Range (-begr and -endr) flags. New version also supports full address with newer RTX cards. It has been tested on Windows 10 and Windows 11 on RTX 30xx cards, RTX 20xx cards and a GTX 1660 Ti card.
 
-SHA256 Checksum:
+SHA256 Checksum for VBCr Windows:
 ```
-5415d56416632faa7058e1ddf2a6cde037d6df22778606128369df4557627dc3
+78e8c3ec39eab3f21dc4930dc1becaf4c3f3aa2b9936cc7f6ff744020e31beb1
+```
+SHA256 Checksum for VBCrLinux:
+```
+069cb132f5f70ff98a116708fbf758766cd94e9fd1d533c25f822bf2242268cd
 ```
 (Verify by opening cmd, change directory to where file (VBCr.exe) is located, and run CertUtil -hashfile VBCr.exe.exe SHA256
 
